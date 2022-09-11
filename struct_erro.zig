@@ -22,7 +22,7 @@ pub fn main() !void {
 
     //
     const z = if (uOrerr()) |val| val else |err| {
-        _ = err catch {}; // erros cant bee discarted
+        _ = err catch {}; // erros cannot be discarted
         unreachable; //
     };
     _ = z;
