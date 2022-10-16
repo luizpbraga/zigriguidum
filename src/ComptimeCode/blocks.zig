@@ -1,6 +1,4 @@
-//
 const std = @import("std");
-//
 
 test "for" {
     var i: usize = 0;

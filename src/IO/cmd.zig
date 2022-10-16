@@ -8,10 +8,8 @@ test "cmd" {
 
     // args...
     const argv = &[_][]const u8{ "ls", "/home/luizpbraga/Documents/Aulas-Fortran/" };
-
     const exec = try std.ChildProcess.exec(.{ .allocator = allocator, .argv = argv });
 
     try std.io.getStdOut().writer().print("{s}", .{exec.stdout});
-
     // FIM!
 }

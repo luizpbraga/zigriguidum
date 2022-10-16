@@ -1,23 +1,19 @@
-# ZIG-riguidum ⚡️⚡️⚡️
+# ZIG-RIGUIDUM ⚡️⚡️⚡️
 
 ![](https://github.com/luizpbraga/fortran4duck/blob/main/zigriguidum/zigriguidum.png)
 
-Pretendo começar uma [playlist](https://www.youtube.com/playlist?list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN) sobre a linguagem [Zig](https://ziglang.org/) (sorry Andrew, love ya!). Eu deveria aprender Python (bleh) e SQL, porém Zig me
-deixou muito hypado. 
+That's my 'Learning Zig' repository. 
 
-No momento, estou estudando o repositório [Ziglings](https://github.com/ratfactor/ziglings). Recomendo!
+Recommend repository: [Ziglings](https://github.com/ratfactor/ziglings)
 
-No meu canal, você vai encontrar os seguintes vídeo sobre Zig:
-
- * [Abrindo um Arquivo](https://www.youtube.com/watch?v=7vThgi3I-PA&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&ab_channel=Fortran4duck).
- * [A função Split](https://www.youtube.com/watch?v=9xMsJYThtv8&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=2&ab_channel=Fortran4duck).
- * [Executando um comando Shell](https://www.youtube.com/watch?v=maFUpUtpTYs&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=3&ab_channel=Fortran4duck).
- * [Lendo o conteudo de um diretório] (https://www.youtube.com/watch?v=5Ada9RZdqKE&t=95s)
-
-Nesses vídeo eu não me atrevo a abrir a boca, então você pode curtir o som da natureza que me rodeia, e.g. buzinas, serra elétrica, crianças chorando e o TEK-TEK do meu teclado.
+My [Zig](https://ziglang.org/)'s [playlist](https://www.youtube.com/playlist?list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN)(sorry Andrew, love ya!). 
+On my channel, you will find:
+ * [Reading A File](https://www.youtube.com/watch?v=7vThgi3I-PA&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&ab_channel=Fortran4duck).
+ * [The Split Function](https://www.youtube.com/watch?v=9xMsJYThtv8&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=2&ab_channel=Fortran4duck).
+ * [Shell Command](https://www.youtube.com/watch?v=maFUpUtpTYs&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=3&ab_channel=Fortran4duck).
+ * [Open a Directory](https://www.youtube.com/watch?v=5Ada9RZdqKE&t=95s)
+ * [Fortran Videos]
 
  - [TODO] 
-  * [ ] Comentar os códigos;
-  * [ ] Fazer o "build.zig" funcionar corretamente;
-  * [ ] Testar o @cImport;
-  * [ ] Testar as diferentes $flagas$;
+  * [ ] Comment the code;
+  * [ ] Make "build.zig" works;
