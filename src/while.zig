@@ -1,8 +1,5 @@
-//
 const expect = @import("std").testing.expect;
-
 //
-
 test "while \n" {
     var i: usize = 0;
     var j: usize = 100;

@@ -1,4 +1,3 @@
-//
 const std = @import("std");
 const print = std.debug.print;
 const stdin = std.io.getStdIn();

@@ -8,24 +8,33 @@ const c = @cImport({
 //
 pub fn main() !void {
     // Using cblas:
+
+    //const m: c.CBLAS_INT = 4;
+    //const n: c.CBLAS_INT = 4;
+    const m = 4;
+    const n = 4;
+
     var Layout: c.CBLAS_LAYOUT = c.CblasColMajor;
     var transa: c.CBLAS_TRANSPOSE = c.CblasNoTrans;
-    const m: c.CBLAS_INT = 4;
-    const n: c.CBLAS_INT = 4;
-    var lda: c.CBLAS_INT = 4;
-    var incx: c.CBLAS_INT = 1;
-    var incy: c.CBLAS_INT = 1;
+
+    //var lda: c.CBLAS_INT = 4;
+    //var incx: c.CBLAS_INT = 1;
+    //var incy: c.CBLAS_INT = 1;
+    var lda: i32 = 4; // c_int
+    var incx: i32 = 1;
+    var incy: i32 = 1;
+
     var alpha: f64 = 1;
     var beta: f64 = 0;
+
     var a: [m * m]f64 = .{ 1, 2, 3, 4, 1, 1, 1, 1, 3, 4, 5, 6, 5, 6, 7, 8 };
     var x: [n]f64 = .{ 1, 2, 1, 1 };
     var y: [n]f64 = .{ 0, 0, 0, 0 };
 
-    _ = c.cblas_dgemv(Layout, transa, m, n, alpha, &a, lda, &x, incx, beta, &y, incy);
+    c.cblas_dgemv(Layout, transa, m, n, alpha, &a, lda, &x, incx, beta, &y, incy);
 
-    for (y) |i, val| {
+    for (y) |i, val|
         _ = c.printf("y%d = %f\n", i, val);
-    }
 }
 test "basic" {
     const s = "hello";

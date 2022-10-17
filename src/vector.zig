@@ -1,8 +1,8 @@
-//
 const std = @import("std");
 const print = std.debug.print;
-//
 const Vb4 = @Vector(4, bool);
+
+// fortran arrays >>>> zig arrays
 pub fn main() !void {
     var v = @Vector(4, i32){ 1, 2, 3, 4 };
     v[0] = 0;

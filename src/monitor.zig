@@ -1,4 +1,4 @@
-//
+// code to switch monitors
 const std = @import("std");
 const print = std.debug.print;
 const allocator = std.heap.page_allocator;

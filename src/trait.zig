@@ -1,9 +1,8 @@
-//
 const std = @import("std");
 const print = std.debug.print;
-const trait = std.meta.trait;
-//
-//
+
+const trait = std.meta.trait; // !!!!
+
 fn foo(comptime T: type, f: T, g: T) !T {
     return if (trait.isNumber(T)) g + f else error.NAN;
 }

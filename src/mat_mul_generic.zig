@@ -1,12 +1,12 @@
-//
 const std = @import("std");
 const print = std.debug.print;
-//
 
+// matrix Type
 fn M(comptime T: type, comptime d1: usize, comptime d2: usize) type {
     return [d1][d2]T;
 }
 
+// matrix multiplication
 fn prod(comptime T: type, comptime a: anytype, comptime b: anytype) !M(T, a.len, b[0].len) {
     //
     if (T != @typeInfo(@typeInfo(@TypeOf(a)).Array.child).Array.child or

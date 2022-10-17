@@ -1,4 +1,4 @@
-//
+// matrixes multiplication
 const std = @import("std");
 const print = std.debug.print;
 //
@@ -7,10 +7,8 @@ fn prod(comptime T: type, a: [][]T, b: [][]T) [][]T {
     var i: usize = 0;
     var j: usize = 0;
     var k: usize = 0;
-
     var row = a.len;
     var col = b[0].len;
-
     var c: [row][col]T = undefined;
 
     while (i < row) : (i += 1) {
@@ -26,7 +24,7 @@ fn prod(comptime T: type, a: [][]T, b: [][]T) [][]T {
     return c;
 }
 
-fn matriz( //
+fn matriz(
     comptime T: type, //
     comptime row: usize,
     comptime n: usize, //

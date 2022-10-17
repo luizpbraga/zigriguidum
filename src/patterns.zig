@@ -1,6 +1,6 @@
-//
 const std = @import("std");
-//
+
+// comptime vars
 const v = 1;
 const s = 2;
 
