@@ -1,6 +1,6 @@
 # ZIGRIGUIDUM ⚡️⚡️⚡️
 
-![](https://github.com/luizpbraga/fortran4duck/blob/main/zigriguidum/zigriguidum.png)
+![](./zigriguidum.png)
 
 That's my 'Learning Zig' repository. I also have a [Zig](https://ziglang.org/) [playlist](https://www.youtube.com/playlist?list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN)(sorry Andrew, love ya!). 
 
